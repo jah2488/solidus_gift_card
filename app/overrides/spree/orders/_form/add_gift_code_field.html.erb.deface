@@ -4,8 +4,8 @@
   <tr>
     <td colspan="6">
       <%= order_form.label :gift_code %>
-      <%= order_form.text_field :gift_code, :size => 10 %>
-      <%= order_form.submit Spree.t(:apply) %>
+      <%= order_form.text_field :gift_code, :size => 20, :class => "form-control" %>
+      <%= order_form.submit Spree.t(:apply), :class => "btn btn-default" %>
     </td>
   </tr>
 </tbody>
