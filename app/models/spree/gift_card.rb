@@ -29,7 +29,6 @@ module Spree
             order: order,
             adjustable: order,
             source: self,
-            mandatory: true,
             label: "#{Spree.t(:gift_card)}"
           )
 
@@ -38,7 +37,7 @@ module Spree
 
     # Calculate the amount to be used when creating an adjustment
     def compute_amount(calculable)
-      self.calculator.compute(calculable, self)
+      self.calculator.compute(calculable)
     end
 
     def debit(amount, order)

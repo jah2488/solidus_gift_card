@@ -2,10 +2,14 @@
 
 <tbody class="gift-code-field">
   <tr>
-    <td colspan="6">
+    <td colspan="1">
       <%= order_form.label :gift_code %>
+    </td>
+    <td colspan="3">
       <%= order_form.text_field :gift_code, :size => 20, :class => "form-control" %>
       <%= order_form.submit Spree.t(:apply), :class => "btn btn-default" %>
+    </td>
+    <td colspan="2">
     </td>
   </tr>
 </tbody>

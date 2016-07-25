@@ -8,7 +8,6 @@ Spree::CheckoutController.class_eval do
         render :edit and return unless apply_gift_code
       end
 
-
       unless @order.next
         flash[:error] = @order.errors.full_messages.join("\n")
         redirect_to checkout_state_path(@order.state) and return
