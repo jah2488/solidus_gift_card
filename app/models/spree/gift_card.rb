@@ -37,7 +37,7 @@ module Spree
 
     # Calculate the amount to be used when creating an adjustment
     def compute_amount(calculable)
-      self.calculator.compute(calculable)
+      self.calculator.compute(calculable, self)
     end
 
     def debit(amount, order)

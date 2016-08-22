@@ -1,20 +1,20 @@
 en:
   spree:
     apply: "Apply"
-    back_to_gift_cards_list: "Back to Gift Cards List"
-    buy_gift_card: "Buy gift card"
+    back_to_gift_cards_list: "Back to E-Gift Certificates List"
+    buy_gift_card: "Buy E-Gift Certificate"
     current_value: "Current Value"
-    gift_card: 'Gift Card'
-    gift_cards: "Gift cards"
-    gift_card_calculator: 'Gift Card Calculator'
-    gift_code: 'Gift Code'
-    gift_code_applied: 'Gift code has been successfully applied to your order.'
-    gift_code_not_found: "The gift code you entered doesn't exist. Please try again."
-    is_gift_card: "is gift card"
-    new_gift_card: 'New Gift Card'
+    gift_card: 'E-Gift Certificate'
+    gift_cards: "E-Gift Certificates"
+    gift_card_calculator: 'E-Gift Certificate Calculator'
+    gift_code: 'E-Gift Certificate Code'
+    gift_code_applied: 'E-Gift Certificate code has been successfully applied to your order.'
+    gift_code_not_found: "The E-Gift Certificate code you entered doesn't exist. Please try again."
+    is_gift_card: "is E-Gift Certificate"
+    new_gift_card: 'New E-Gift Certificate'
     note: "Note"
     original_value: "Original Value"
     recipient_name: "Recipient name"
-    successfully_created_gift_card: 'You have successfully created the gift card.'
+    successfully_created_gift_card: 'You have successfully created the E-Gift Certificate.'
     transactions: "Transactions"
     value: 'Value'
