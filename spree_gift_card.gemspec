@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_gift_card'
-  s.version     = '2.0.0'
+  s.version     = '3.0.0'
   s.summary     = 'Spree Gift Card'
   s.description = 'Spree Gift Card Extension'
 
